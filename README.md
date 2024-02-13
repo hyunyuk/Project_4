@@ -2,20 +2,20 @@
 
 ## Project Topic, Background, Audience
 
-Project Goal
+#### Project Goal
 
-Project Factors
+#### Project Factors
 
-Roles
+#### Roles
 
-Technologies Used
+#### Technologies Used
 
-Data Exploration and Analysis Phases
+## Data Exploration and Analysis Phases
  
-ETL Method
+## ETL Method
 
-Machine Learning
+## Machine Learning
 
-Dashboard
+## Dashboard
 
-Conclusion
+## Conclusion
