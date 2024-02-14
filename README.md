@@ -85,11 +85,11 @@ Looking at a dataset about ESPN NFL players from 1967-present from Kaggle, we wo
 [Tableau Dashboard](https://public.tableau.com/views/Project4_17077833437840/NFLDraftStory?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
 The dashboard presents which factors have the most impact on a player being drafted in the first round, compared to the latter 6 rounds. 
 * **These factors include:**
- *Position
- *College Program
- *Value/Statistics
- *Height
- *Weight
+ * Position
+ * Grade
+ * Value/Statistics
+ * Height
+ * Weight
 
 The dashboard has two parts. The first part presents an overview of the grade, position, and value of players who have been drafted over the years. 
 INSERT_IMAGE
