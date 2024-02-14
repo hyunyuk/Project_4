@@ -92,11 +92,10 @@ The dashboard presents which factors have the most impact on a player being draf
    * Weight
 
 The dashboard has two parts. The first part presents an overview of the grade, position, and value of players who have been drafted over the years. 
-INSERT_IMAGE
+<img src = "./Images/overview.png">
 
 The second part breaks down how common the height and weight of drafted players are by position and round drafted. 
-INSERT_IMAGE
-
+<img src = "./Images/Weight_Height.png">
  ### Interactive Elements
  The dashboard we created is very interactive with the use of the filter action. The grade and position visuals can be filtered on the first page by draft round. On the second page, the weight and height graphs can be filtered by both position and draft round. The filter action adjusts the data behind the scenes and presents a visual with data based on what was chosen. All filters are in dropdown menus that allow for multiple values to be chosen. 
  
