@@ -118,4 +118,5 @@ The second part breaks down how common the height and weight of drafted players 
 
 ## Future Projects
 * For a future project, incorporating the 'statistics' column would be a good idea. The column encompasses essential counting metrics such as tackles, receiving touchdowns, and more depending on the player's season. Having this info would make it easier to figure out which players would be a great candidate for the NFL.
+* Including NFL scouting combine data could also be useful. During the combine, all players who have declared for the draft take part in drills that measure speed, strength, and positional proficiency. Our model would benefit from this data because it provides more secular information on individual players and their athletic ability. In our model, we saw that weight was one of the most influential factors, adding combine data would add more physical factors to the model. 
 
