@@ -92,7 +92,7 @@ The dashboard presents which factors have the most impact on a player being draf
    * Weight
 
 The dashboard has two parts. The first part presents an overview of the grade, position, and value of players who have been drafted over the years. 
-<img src = "./Images/overview.png">
+<img src = "./Images/Overview.png">
 
 The second part breaks down how common the height and weight of drafted players are by position and round drafted. 
 <img src = "./Images/Weight_Height.png">
