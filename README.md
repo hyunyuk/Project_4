@@ -89,14 +89,14 @@ The dashboard presents which factors have the most impact on a player being draf
 *Height
 *Weight
 
-The dashboard has two parts. The first part presents an overview of the college, position, and value of players who have been drafted over the years. 
+The dashboard has two parts. The first part presents an overview of the grade, position, and value of players who have been drafted over the years. 
 INSERT_IMAGE
 
 The second part breaks down how common the height and weight of drafted players are by position and round drafted. 
 INSERT_IMAGE
 
  ### Interactive Elements
- The dashboard we created is very interactive with the use of the filter action. On the first page, the college and positions visuals can be filtered by draft round. On the second page, the weight and height graphs can be filtered by both position and draft round. The filter action adjusts the data behind the scenes and presents a visual with data based on what was chosen. All filters are in dropdown menus that allow for multiple values to be chosen. 
+ The dashboard we created is very interactive with the use of the filter action. The grade and position visuals can be filtered on the first page by draft round. On the second page, the weight and height graphs can be filtered by both position and draft round. The filter action adjusts the data behind the scenes and presents a visual with data based on what was chosen. All filters are in dropdown menus that allow for multiple values to be chosen. 
  
 
 
@@ -104,8 +104,9 @@ INSERT_IMAGE
   ### Results
 
   ### Summary
+  Our models showed that grade, weight, and run were the most important factors in deciding which round of the NFL draft players were picked in. There are countless factors, many of which are subjective, that determine who gets drafted and by which franchise. Our model can be used to help coaches and owners in the scouting process by knowing what to look for or to narrow down which players may be available in the later rounds. 
 
-  ### Lessons Learned
+
 
 ## Future Projects
 * For a future project, incorporating the 'statistics' column would be a good idea. The column encompasses essential counting metrics such as tackles, receiving touchdowns, and more depending on the player's season. Having this info would make it easier to figure out which players would be a great candidate for the NFL.
