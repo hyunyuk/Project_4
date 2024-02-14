@@ -104,6 +104,12 @@ The second part breaks down how common the height and weight of drafted players 
 
 ## Conclusion
   ### Results
+  * **Model 1**
+   * Model: Logistic Regression with standard fit
+   * Accuracy: 72%
+  *  **Model 2**
+   * Model: Logistic Regression with scaler fit and oversampled data
+   * Accuracy: 94% 
 
   ### Summary
   Our models showed that grade, weight, and run were the most important factors in deciding which round of the NFL draft players were picked in. There are countless factors, many of which are subjective, that determine who gets drafted and by which franchise. Our model can be used to help coaches and owners in the scouting process by knowing what to look for or to narrow down which players may be available in the later rounds. 
