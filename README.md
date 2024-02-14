@@ -5,6 +5,7 @@ _Project by: Amanda Krest and Tiffany Yuk_
 
 #### Project Goal
 Looking at a dataset about ESPN NFL players from 1967-present from Kaggle, we would like to create a model predicting which players will be picked for the next NFL players based on stats. 
+https://www.kaggle.com/datasets/jacklichtenstein/espn-nfl-draft-prospect-data
 
 <img src = "./Images/NFL logo.jpg" width="500">
 
