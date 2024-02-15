@@ -102,7 +102,7 @@ The second part breaks down how common the height and weight of drafted players 
    * Model: Logistic Regression with standard fit
    * Accuracy: 72%
   *  **Model 2**
-   * Model: Random Forest
+   * Model: Logistic Regression with resampled data
    * Accuracy: 94% 
 
   ### Summary
