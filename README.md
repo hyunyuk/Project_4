@@ -32,14 +32,6 @@ https://www.kaggle.com/datasets/jacklichtenstein/espn-nfl-draft-prospect-data
   * Weight
   * Height
 
-#### Roles
-* **Data Cleaning and Analysis**
-  * Tiffany
-* **Machine Learning Model**
-  * Tiffany
-* **Visualization**
-  * Amanda
-
 #### Technologies Used
 * **Data Cleaning and Analysis**
   * Jupyter Notebook
