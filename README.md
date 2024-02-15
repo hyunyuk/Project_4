@@ -74,6 +74,8 @@ https://www.kaggle.com/datasets/jacklichtenstein/espn-nfl-draft-prospect-data
   * Finally, upon inspecting the importance of the features, we can see that 'grade', 'run', and 'weight' were the most important features. While 'value', 'qb_plays', 'exp_sack', 'all_star', and 'active' demonstrated negligible importance, suggesting minimal impact on model predictions.
   <img src = "./Images/Features.png">
 
+  * Also did a linear regression model but the Rsqared went from R-squared: 0.8813022659817239 to R-squared: 0.8813022659817239 
+
 ## Dashboard
 [Tableau Dashboard](https://public.tableau.com/views/Project4_17077833437840/NFLDraftStory?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
 
