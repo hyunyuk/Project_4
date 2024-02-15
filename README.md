@@ -60,19 +60,19 @@ https://www.kaggle.com/datasets/jacklichtenstein/espn-nfl-draft-prospect-data
   The model we chose to use was the **Logistic Regression Model**. The reason why we chose to do logistic regression model was because it offers insights into the relationship between the features and likelihood of the outcome. 
   ### Process
   * Our journey began by dividing the data into labels and features, with 'overall' serving as the target variable. Initially, we assessed the balance of our target variable, 'overall', which appeared slightly skewed but manageable. 
-  <img src = "./Images/y value counts.png" >
+   <img src = "./Images/y value counts.png" >
   * Although the initial model's accuracy was respectable, we recognized room for improvement.
-  <img src = "./Images/balanced accuracy score.png">
+   <img src = "./Images/balanced accuracy score.png">
   * Delving deeper, we examined the classification report, revealing an accuracy of 0.77. While precision and recall were not bad, there was potential for enhancement.
-  <img src = "./Images/Classification Report 1.png">
+   <img src = "./Images/Classification Report 1.png">
   * For the second model, we addressed the imbalance in the target variable, resulting in a more equitable distribution.
-  <img src = "./Images/new y value counts.png">
+   <img src = "./Images/new y value counts.png">
   * The refined model exhibited significantly improved performance, as reflected in the enhanced balanced accuracy score.
-  <img src = "./Images/new balanced accuracy score.png">
+   <img src = "./Images/new balanced accuracy score.png">
   * Looking at the new classification report. The accuracy was 0.89 which is definitely higher than the original model. 
-  <img src = "./Images/Classification Report 2.png">
+   <img src = "./Images/Classification Report 2.png">
   * Finally, upon inspecting the importance of the features, we can see that 'grade', 'run', and 'weight' were the most important features. While 'value', 'qb_plays', 'exp_sack', 'all_star', and 'active' demonstrated negligible importance, suggesting minimal impact on model predictions.
-  <img src = "./Images/Features.png">
+   <img src = "./Images/Features.png">
 
   * Also did a linear regression model but the Rsquared went from R-squared: 0.8813022659817239 to R-squared: 0.8778153484778893 
 
