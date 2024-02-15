@@ -57,20 +57,26 @@ https://www.kaggle.com/datasets/jacklichtenstein/espn-nfl-draft-prospect-data
 
 ## Machine Learning
   ### Model Choice
-  The model we chose to use was the **Logistic Regression Model**. The reason why we chose to do logistic regression model was because it offers insights into the relationship between the features and likelihood of the outcome. 
+  The model we chose to use was the **Logistic Regression Model** and the **Linear Regression Model**. The reason why we chose to do logistic regression model was because it offers insights into the relationship between the features and likelihood of the outcome. The Linear Regression was also used because it would be straightforward and easy to interpret. The variables would be able to represent how much it will affect the outcome.   
   ### Process
   * Our journey began by dividing the data into labels and features, with 'overall' serving as the target variable. Initially, we assessed the balance of our target variable, 'overall', which appeared slightly skewed but manageable. 
    <img src = "./Images/y value counts.png" >
+
   * Although the initial model's accuracy was respectable, we recognized room for improvement.
    <img src = "./Images/balanced accuracy score.png">
+   
   * Delving deeper, we examined the classification report, revealing an accuracy of 0.77. While precision and recall were not bad, there was potential for enhancement.
    <img src = "./Images/Classification Report 1.png">
+   
   * For the second model, we addressed the imbalance in the target variable, resulting in a more equitable distribution.
    <img src = "./Images/new y value counts.png">
+   
   * The refined model exhibited significantly improved performance, as reflected in the enhanced balanced accuracy score.
    <img src = "./Images/new balanced accuracy score.png">
+   
   * Looking at the new classification report. The accuracy was 0.89 which is definitely higher than the original model. 
    <img src = "./Images/Classification Report 2.png">
+   
   * Finally, upon inspecting the importance of the features, we can see that 'grade', 'run', and 'weight' were the most important features. While 'value', 'qb_plays', 'exp_sack', 'all_star', and 'active' demonstrated negligible importance, suggesting minimal impact on model predictions.
    <img src = "./Images/Features.png">
 
@@ -101,11 +107,17 @@ The second part breaks down how common the height and weight of drafted players 
 ## Conclusion
   ### Results
   * **Model 1**
-   * Model: Logistic Regression with standard fit
-   * Accuracy: 72%
-  *  **Model 2**
-   * Model: Logistic Regression with resampled data
-   * Accuracy: 94% 
+    * Model: Logistic Regression with standard fit
+    * Accuracy: 72%
+  * **Model 2**
+    * Model: Logistic Regression with resampled data
+    * Accuracy: 94%
+  * **Model 3**
+    * Model: Linear Regression
+    * R-squared: 0.8813022659817239 
+  * **Model 4**
+    * Model: Linear Regression without unnecessary columns
+    * R-squared: 0.8778153484778893
 
   ### Summary
   Our models showed that grade, weight, and run were the most important factors in deciding which round of the NFL draft players were picked in. There are countless factors, many of which are subjective, that determine who gets drafted and by which franchise. Our model can be used to help coaches and owners in the scouting process by knowing what to look for or to narrow down which players may be available in the later rounds. 
